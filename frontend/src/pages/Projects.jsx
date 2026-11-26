@@ -1,4 +1,3 @@
-import { useState } from 'react'
 function Projects(){
 return (
     <div>Projects are ready to show!!!!!<br></br>
