@@ -8,10 +8,7 @@ function Login() {
   const navigate=useNavigate();
 const location=useLocation();
     function handleChange(e){
-    setLogindata({
-      ...logindata,
-      [e.target.name]:e.target.value
-    })
+    setLogindata({...logindata,[e.target.name]:e.target.value})
   }
   function handlesubmit(event) {
     event.preventDefault()
